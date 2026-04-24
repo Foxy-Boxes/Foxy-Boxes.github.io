@@ -4,7 +4,7 @@ authors: Berk Aydogmus, Linsong Guo, Danial Zuberi, Tal Garfinkel, Dean Tullsen,
 collection: publications
 category: magazines
 permalink: /publication/2026-xui-top
-date: To Appear
+pubdate: To Appear
 venue: 'IEEE MICRO Top Picks'
 ---
 
