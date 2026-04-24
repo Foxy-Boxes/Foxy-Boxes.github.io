@@ -43,7 +43,7 @@
         {% elsif post.collection == 'publications' %}
           <p>{{post.authors}}</p>
           {% if post.svenue %}
-          <p>In <i>{{ post.venue }}</i> (<b>{{post.svenue}})</b>), {{ post.pubdate | default: "1900-01-01" | date: "%Y" }} </p>
+          <p>In <i>{{ post.venue }}</i> (<b>{{post.svenue}}</b>), {{ post.pubdate | default: "1900-01-01" | date: "%Y" }} </p>
           {% else %}
           <p>In <i>{{ post.venue }}</i> , {{ post.pubdate | default: "1900-01-01" | date: "%Y" }} </p>
           {% endif %}
